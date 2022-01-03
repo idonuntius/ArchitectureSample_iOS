@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import Presentation_View
 
 @main
 struct ArchitectureSampleApp: App {
+    init() {
+        resolver = { container }
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
