@@ -120,6 +120,22 @@
 		5F2F6496278140BD004E4C67 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F6495278140BD004E4C67 /* Resolver.swift */; };
 		5F2F64992781A668004E4C67 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64982781A668004E4C67 /* Container.swift */; };
 		5F2F64A32781E60F004E4C67 /* OrganizationListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64A22781E60F004E4C67 /* OrganizationListItem.swift */; };
+		5F2F64A72782CDB5004E4C67 /* RepoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64A62782CDB5004E4C67 /* RepoListView.swift */; };
+		5F2F64AA2782F5FD004E4C67 /* RepoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64A92782F5FD004E4C67 /* RepoEntity.swift */; };
+		5F2F64AC2782F61B004E4C67 /* RepoOwnerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64AB2782F61B004E4C67 /* RepoOwnerEntity.swift */; };
+		5F2F64AF2782F889004E4C67 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64AE2782F889004E4C67 /* Repo.swift */; };
+		5F2F64B12782F896004E4C67 /* RepoNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64B02782F896004E4C67 /* RepoNames.swift */; };
+		5F2F64B32782FBE3004E4C67 /* RepoID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64B22782FBE3004E4C67 /* RepoID.swift */; };
+		5F2F64B5278932B0004E4C67 /* RepoOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64B4278932B0004E4C67 /* RepoOwner.swift */; };
+		5F2F64B7278933CC004E4C67 /* RepoOwnerID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64B6278933CC004E4C67 /* RepoOwnerID.swift */; };
+		5F2F64B927893651004E4C67 /* RepoCountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64B827893651004E4C67 /* RepoCountData.swift */; };
+		5F2F64BB27894775004E4C67 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64BA27894775004E4C67 /* Repos.swift */; };
+		5F2F64BD278947ED004E4C67 /* ReposMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64BC278947ED004E4C67 /* ReposMapper.swift */; };
+		5F2F64C02789C7EF004E4C67 /* GetReposUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64BF2789C7EF004E4C67 /* GetReposUseCase.swift */; };
+		5F2F64C22789C7F9004E4C67 /* GetReposUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64C12789C7F9004E4C67 /* GetReposUseCaseImpl.swift */; };
+		5F2F64C52789CAA9004E4C67 /* RepoListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64C42789CAA9004E4C67 /* RepoListState.swift */; };
+		5F2F64C72789CAD0004E4C67 /* RepoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64C62789CAD0004E4C67 /* RepoListViewModel.swift */; };
+		5F2F64C92789CC91004E4C67 /* OrganizationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F64C82789CC91004E4C67 /* OrganizationName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -609,6 +625,22 @@
 		5F2F6495278140BD004E4C67 /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
 		5F2F64982781A668004E4C67 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		5F2F64A22781E60F004E4C67 /* OrganizationListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationListItem.swift; sourceTree = "<group>"; };
+		5F2F64A62782CDB5004E4C67 /* RepoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListView.swift; sourceTree = "<group>"; };
+		5F2F64A92782F5FD004E4C67 /* RepoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoEntity.swift; sourceTree = "<group>"; };
+		5F2F64AB2782F61B004E4C67 /* RepoOwnerEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoOwnerEntity.swift; sourceTree = "<group>"; };
+		5F2F64AE2782F889004E4C67 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		5F2F64B02782F896004E4C67 /* RepoNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoNames.swift; sourceTree = "<group>"; };
+		5F2F64B22782FBE3004E4C67 /* RepoID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoID.swift; sourceTree = "<group>"; };
+		5F2F64B4278932B0004E4C67 /* RepoOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoOwner.swift; sourceTree = "<group>"; };
+		5F2F64B6278933CC004E4C67 /* RepoOwnerID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoOwnerID.swift; sourceTree = "<group>"; };
+		5F2F64B827893651004E4C67 /* RepoCountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCountData.swift; sourceTree = "<group>"; };
+		5F2F64BA27894775004E4C67 /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
+		5F2F64BC278947ED004E4C67 /* ReposMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposMapper.swift; sourceTree = "<group>"; };
+		5F2F64BF2789C7EF004E4C67 /* GetReposUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReposUseCase.swift; sourceTree = "<group>"; };
+		5F2F64C12789C7F9004E4C67 /* GetReposUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReposUseCaseImpl.swift; sourceTree = "<group>"; };
+		5F2F64C42789CAA9004E4C67 /* RepoListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListState.swift; sourceTree = "<group>"; };
+		5F2F64C62789CAD0004E4C67 /* RepoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewModel.swift; sourceTree = "<group>"; };
+		5F2F64C82789CC91004E4C67 /* OrganizationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -919,6 +951,7 @@
 		5F2F62EC27807ED8004E4C67 /* Presentation.ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5F2F64C32789CA9B004E4C67 /* RepoList */,
 				5F2F649127813F6A004E4C67 /* DI */,
 				5F2F648C27813CAC004E4C67 /* OrganizationList */,
 				5F2F62EE27807ED8004E4C67 /* Presentation_ViewModel.docc */,
@@ -937,6 +970,7 @@
 		5F2F630E27807EE8004E4C67 /* Domain.Model */ = {
 			isa = PBXGroup;
 			children = (
+				5F2F64AD2782F86C004E4C67 /* Repo */,
 				5F2F645E27809BED004E4C67 /* Organization */,
 				5F2F631027807EE8004E4C67 /* Domain_Model.docc */,
 			);
@@ -954,9 +988,9 @@
 		5F2F633027807EF1004E4C67 /* Domain.UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				5F2F64BE2789C7D6004E4C67 /* Repo */,
 				5F2F64802780A85A004E4C67 /* DI */,
 				5F2F647B2780A763004E4C67 /* Organization */,
-				5F2F64762780A74A004E4C67 /* DI */,
 				5F2F633227807EF1004E4C67 /* Domain_UseCase.docc */,
 			);
 			path = Domain.UseCase;
@@ -1026,6 +1060,7 @@
 		5F2F63B827807F57004E4C67 /* Data.Entity */ = {
 			isa = PBXGroup;
 			children = (
+				5F2F64A82782F5E8004E4C67 /* Repo */,
 				5F2F645427809135004E4C67 /* Organization */,
 				5F2F63BA27807F57004E4C67 /* Data_Entity.docc */,
 			);
@@ -1095,6 +1130,7 @@
 				5F2F645F27809D80004E4C67 /* OrganizationID.swift */,
 				5F2F646127809E7B004E4C67 /* Organization.swift */,
 				5F2F646327809F85004E4C67 /* Organizations.swift */,
+				5F2F64C82789CC91004E4C67 /* OrganizationName.swift */,
 			);
 			path = Organization;
 			sourceTree = "<group>";
@@ -1127,6 +1163,7 @@
 			isa = PBXGroup;
 			children = (
 				5F2F646F2780A318004E4C67 /* OrganizationsMapper.swift */,
+				5F2F64BC278947ED004E4C67 /* ReposMapper.swift */,
 			);
 			path = Github;
 			sourceTree = "<group>";
@@ -1135,13 +1172,6 @@
 			isa = PBXGroup;
 			children = (
 				5F2F64742780A4B6004E4C67 /* MapperAssembly.swift */,
-			);
-			path = DI;
-			sourceTree = "<group>";
-		};
-		5F2F64762780A74A004E4C67 /* DI */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -1169,6 +1199,7 @@
 				5F2F64862780BA2E004E4C67 /* MainView.swift */,
 				5F2F64882780BAFF004E4C67 /* OrganizationListView.swift */,
 				5F2F648A2780BB19004E4C67 /* MeView.swift */,
+				5F2F64A62782CDB5004E4C67 /* RepoListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1212,6 +1243,47 @@
 				5F2F64A22781E60F004E4C67 /* OrganizationListItem.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		5F2F64A82782F5E8004E4C67 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F64A92782F5FD004E4C67 /* RepoEntity.swift */,
+				5F2F64AB2782F61B004E4C67 /* RepoOwnerEntity.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		5F2F64AD2782F86C004E4C67 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F64AE2782F889004E4C67 /* Repo.swift */,
+				5F2F64B02782F896004E4C67 /* RepoNames.swift */,
+				5F2F64B22782FBE3004E4C67 /* RepoID.swift */,
+				5F2F64B4278932B0004E4C67 /* RepoOwner.swift */,
+				5F2F64B6278933CC004E4C67 /* RepoOwnerID.swift */,
+				5F2F64B827893651004E4C67 /* RepoCountData.swift */,
+				5F2F64BA27894775004E4C67 /* Repos.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		5F2F64BE2789C7D6004E4C67 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F64BF2789C7EF004E4C67 /* GetReposUseCase.swift */,
+				5F2F64C12789C7F9004E4C67 /* GetReposUseCaseImpl.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		5F2F64C32789CA9B004E4C67 /* RepoList */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F64C42789CAA9004E4C67 /* RepoListState.swift */,
+				5F2F64C62789CAD0004E4C67 /* RepoListViewModel.swift */,
+			);
+			path = RepoList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2036,6 +2108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F2F6496278140BD004E4C67 /* Resolver.swift in Sources */,
+				5F2F64A72782CDB5004E4C67 /* RepoListView.swift in Sources */,
 				5F2F648B2780BB19004E4C67 /* MeView.swift in Sources */,
 				5F2F62CC27807E9C004E4C67 /* Presentation_View.docc in Sources */,
 				5F2F64892780BAFF004E4C67 /* OrganizationListView.swift in Sources */,
@@ -2058,8 +2131,10 @@
 			files = (
 				5F2F648E27813CBD004E4C67 /* OrganizationListState.swift in Sources */,
 				5F2F62EF27807ED8004E4C67 /* Presentation_ViewModel.docc in Sources */,
+				5F2F64C72789CAD0004E4C67 /* RepoListViewModel.swift in Sources */,
 				5F2F649327813F76004E4C67 /* ViewModelAssembly.swift in Sources */,
 				5F2F649027813CCD004E4C67 /* OrganizationListViewModel.swift in Sources */,
+				5F2F64C52789CAA9004E4C67 /* RepoListState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2075,10 +2150,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2F64BB27894775004E4C67 /* Repos.swift in Sources */,
 				5F2F631127807EE8004E4C67 /* Domain_Model.docc in Sources */,
 				5F2F646227809E7B004E4C67 /* Organization.swift in Sources */,
+				5F2F64C92789CC91004E4C67 /* OrganizationName.swift in Sources */,
+				5F2F64B12782F896004E4C67 /* RepoNames.swift in Sources */,
+				5F2F64B5278932B0004E4C67 /* RepoOwner.swift in Sources */,
+				5F2F64B32782FBE3004E4C67 /* RepoID.swift in Sources */,
+				5F2F64B7278933CC004E4C67 /* RepoOwnerID.swift in Sources */,
+				5F2F64AF2782F889004E4C67 /* Repo.swift in Sources */,
 				5F2F646427809F85004E4C67 /* Organizations.swift in Sources */,
 				5F2F646027809D80004E4C67 /* OrganizationID.swift in Sources */,
+				5F2F64B927893651004E4C67 /* RepoCountData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2094,10 +2177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2F64C22789C7F9004E4C67 /* GetReposUseCaseImpl.swift in Sources */,
 				5F2F647F2780A787004E4C67 /* GetOrganizationsUseCaseImpl.swift in Sources */,
 				5F2F64822780A866004E4C67 /* UseCaseAssembly.swift in Sources */,
 				5F2F633327807EF1004E4C67 /* Domain_UseCase.docc in Sources */,
 				5F2F647D2780A77D004E4C67 /* GetOrganizationsUseCase.swift in Sources */,
+				5F2F64C02789C7EF004E4C67 /* GetReposUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2150,6 +2235,7 @@
 			files = (
 				5F2F64752780A4B6004E4C67 /* MapperAssembly.swift in Sources */,
 				5F2F639927807F4B004E4C67 /* Data_Mapper.docc in Sources */,
+				5F2F64BD278947ED004E4C67 /* ReposMapper.swift in Sources */,
 				5F2F64702780A318004E4C67 /* OrganizationsMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2167,6 +2253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F2F645627809144004E4C67 /* OrganizationEntity.swift in Sources */,
+				5F2F64AA2782F5FD004E4C67 /* RepoEntity.swift in Sources */,
+				5F2F64AC2782F61B004E4C67 /* RepoOwnerEntity.swift in Sources */,
 				5F2F63BB27807F57004E4C67 /* Data_Entity.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

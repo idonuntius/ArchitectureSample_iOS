@@ -17,7 +17,8 @@ public struct RepositoryAssembly: Assembly {
     public func assemble(container: Container) {
         container.register(GithubRepository.self) { resolver in
             GithubRepositoryImpl(githubApi: resolver.resolve(GithubApi.self)!,
-                                 organizationMapper: resolver.resolve(OrganizationsMapper.self)!)
+                                 organizationMapper: resolver.resolve(OrganizationsMapper.self)!,
+                                 reposMapper: resolver.resolve(ReposMapper.self)!)
         }.inObjectScope(.container)
     }
 }

@@ -7,11 +7,11 @@
 
 public struct Organization: Equatable, Identifiable {
     public let id: OrganizationID
-    public let name: String
+    public let name: OrgnaizationName
     public let avatarUrl: String
     public let description: String?
     
-    public init(id: OrganizationID, name: String, avatarUrl: String, description: String?) {
+    public init(id: OrganizationID, name: OrgnaizationName, avatarUrl: String, description: String?) {
         self.id = id
         self.name = name
         self.avatarUrl = avatarUrl

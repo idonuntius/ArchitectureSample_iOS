@@ -9,4 +9,6 @@ import Domain_Model
 
 public protocol GithubRepository {
     func getOrganizations() async throws -> Organizations
+
+    func getRepos(organizationName: OrgnaizationName) async throws -> Repos
 }

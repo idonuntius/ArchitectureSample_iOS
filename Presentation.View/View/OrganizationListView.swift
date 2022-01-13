@@ -41,7 +41,9 @@ struct OrganizationListView: View {
                 ScrollView(.vertical, showsIndicators: true) {
                     LazyVStack {
                         ForEach(organizations.values) { org in
-                            OrganizationListItem(organization: org)
+                            NavigationLink(destination: RepoListView(orgName: org.name)) {
+                                OrganizationListItem(organization: org)
+                            }
                         }
                     }
                     .refreshable() {

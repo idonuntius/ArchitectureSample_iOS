@@ -30,7 +30,7 @@ struct OrganizationListItem: View {
                         EmptyView()
                     }
                 }
-                Text(organization.name)
+                Text(organization.name.value)
             }.padding(16)
             Divider()
         }
@@ -41,7 +41,7 @@ struct OrganizationListItem_Previews: PreviewProvider {
     static var previews: some View {
         OrganizationListItem(organization: Organization(
             id: OrganizationID(value: -1),
-            name: "Idonuntius",
+            name: OrgnaizationName(value: "Idonuntius"),
             avatarUrl: "https://avatars.githubusercontent.com/u/10494192?v=4",
             description: "Description"
         ))

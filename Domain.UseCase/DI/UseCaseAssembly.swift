@@ -16,5 +16,8 @@ public struct UseCaseAssembly: Assembly {
         container.register(GetOrganizationsUseCase.self) { resolver in
             GetOrganizationsUseCaseImpl(githubRepository: resolver.resolve(GithubRepository.self)!)
         }.inObjectScope(.container)
+        container.register(GetReposUseCase.self) { resolver in
+            GetReposUseCaseImpl(githubRepository: resolver.resolve(GithubRepository.self)!)
+        }.inObjectScope(.container)
     }
 }

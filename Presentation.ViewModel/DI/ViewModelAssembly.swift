@@ -16,5 +16,9 @@ public struct ViewModelAssembly: Assembly {
         container.register(OrganizationListViewModel.self) { resolver in
             OrganizationListViewModel(getOrganizationsUseCase: resolver.resolve(GetOrganizationsUseCase.self)!)
         }
+        container.register(RepoListViewModel.self) { resolver, organizationName in
+            RepoListViewModel(getReposUseCase: resolver.resolve(GetReposUseCase.self)!,
+                              organizationName: organizationName)
+        }
     }
 }

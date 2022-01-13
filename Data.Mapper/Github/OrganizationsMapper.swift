@@ -18,12 +18,16 @@ public struct OrganizationsMapper {
     
     private func mapToOrganization(entity: OrganizationEntity) -> Organization {
         Organization(id: mapToOrganizationID(id: entity.id),
-                     name: entity.login,
+                     name: mapToOrganizationName(name: entity.login),
                      avatarUrl: entity.avatarUrl,
                      description: entity.description)
     }
     
     private func mapToOrganizationID(id: Int) -> OrganizationID {
         OrganizationID(value: id)
+    }
+
+    private func mapToOrganizationName(name: String) -> OrgnaizationName {
+        OrgnaizationName(value: name)
     }
 }

@@ -13,7 +13,13 @@ public struct GithubApi {
     private let base = URL(string: "https://api.github.com/")!
 
     public func getOrganizations() async throws -> [OrganizationEntity] {
-        try await AF.request(base.appendingPathComponent("organizations").absoluteURL).publish([OrganizationEntity].self)
+        try await AF.request(base.appendingPathComponent("organizations").absoluteURL)
+                    .publish([OrganizationEntity].self)
+    }
+    
+    public func getRepos(org: String) async throws -> [RepoEntity] {
+        try await AF.request(base.appendingPathComponent("orgs/\(org)/repos").absoluteURL)
+                    .publish([RepoEntity].self)
     }
 }
 

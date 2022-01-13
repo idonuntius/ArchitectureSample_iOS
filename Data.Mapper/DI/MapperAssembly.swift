@@ -15,5 +15,8 @@ public struct MapperAssembly: Assembly {
         container.register(OrganizationsMapper.self) { _ in
             OrganizationsMapper()
         }.inObjectScope(.container)
+        container.register(ReposMapper.self) { _ in
+            ReposMapper()
+        }.inObjectScope(.container)
     }
 }
