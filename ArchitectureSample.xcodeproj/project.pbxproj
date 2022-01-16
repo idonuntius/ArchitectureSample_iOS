@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F22818B279405E800AE09EB /* RepoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22818A279405E800AE09EB /* RepoListItem.swift */; };
 		5F2F629A27807E1D004E4C67 /* ArchitectureSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F629927807E1D004E4C67 /* ArchitectureSampleApp.swift */; };
 		5F2F629E27807E1E004E4C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F629D27807E1E004E4C67 /* Assets.xcassets */; };
 		5F2F62A127807E1E004E4C67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F62A027807E1E004E4C67 /* Preview Assets.xcassets */; };
@@ -557,6 +558,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F22818A279405E800AE09EB /* RepoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListItem.swift; sourceTree = "<group>"; };
 		5F2F629627807E1D004E4C67 /* ArchitectureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2F629927807E1D004E4C67 /* ArchitectureSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureSampleApp.swift; sourceTree = "<group>"; };
 		5F2F629D27807E1E004E4C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -1241,6 +1243,7 @@
 			isa = PBXGroup;
 			children = (
 				5F2F64A22781E60F004E4C67 /* OrganizationListItem.swift */,
+				5F22818A279405E800AE09EB /* RepoListItem.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -2113,6 +2116,7 @@
 				5F2F62CC27807E9C004E4C67 /* Presentation_View.docc in Sources */,
 				5F2F64892780BAFF004E4C67 /* OrganizationListView.swift in Sources */,
 				5F2F64872780BA2E004E4C67 /* MainView.swift in Sources */,
+				5F22818B279405E800AE09EB /* RepoListItem.swift in Sources */,
 				5F2F64A32781E60F004E4C67 /* OrganizationListItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

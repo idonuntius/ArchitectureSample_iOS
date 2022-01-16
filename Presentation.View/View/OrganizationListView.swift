@@ -23,6 +23,7 @@ struct OrganizationListView: View {
                 Main(state: vm.state, refresh: vm.refresh)
             }
             .navigationTitle("OrganizationList")
+            .navigationBarTitleDisplayMode(.inline)
             .task {
                 await vm.initialize()
             }

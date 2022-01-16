@@ -11,23 +11,48 @@ import Presentation_ViewModel
 
 @MainActor
 struct RepoListView: View {
-    @ObservedObject private var repoListViewModel: RepoListViewModel
+    @ObservedObject private var vm: RepoListViewModel
     
     init(orgName: OrgnaizationName) {
-        repoListViewModel = resolver().resolve(RepoListViewModel.self, argument: orgName)!
+        vm = resolver().resolve(RepoListViewModel.self, argument: orgName)!
     }
     
     var body: some View {
         NavigationView {
             ZStack {
-                ScrollView {
-                    Text("RepoList")
-                }
+                Main(state: vm.state, refresh: vm.refresh)
             }
             .navigationTitle("RepoList")
             .navigationBarTitleDisplayMode(.inline)
             .task {
-                await repoListViewModel.initialize()
+                await vm.initialize()
+            }
+        }
+    }
+
+    private struct Main: View {
+        let state: RepoListState
+        let refresh: () async -> Void
+
+        var body: some View {
+            switch state {
+            case .loading:
+                ProgressView()
+            case .loaded(let repos):
+                ScrollView(.vertical, showsIndicators: true) {
+                    LazyVStack {
+                        ForEach(repos.values) { repo in
+                            RepoListItem(repo: repo)
+                                .padding(.leading, 16)
+                                .padding(.trailing, 16)
+                        }
+                    }
+                    .refreshable() {
+                        await refresh()
+                    }
+                }
+            case .failed(_):
+                Text("Error")
             }
         }
     }
